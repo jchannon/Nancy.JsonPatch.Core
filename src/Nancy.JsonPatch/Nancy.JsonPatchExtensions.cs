@@ -69,7 +69,7 @@ namespace Nancy.JsonPatch
                 var affectedObjectName = jsonPatchError.AffectedObject.GetType().Name;
                 var key = string.IsNullOrEmpty(prefix) ? affectedObjectName : prefix + "." + affectedObjectName;
 
-                modelValidationResult.Add(key, jsonPatchError.ErrorMessage);
+                modelState.Errors.Add(key, jsonPatchError.ErrorMessage);
             });
         }
     }
