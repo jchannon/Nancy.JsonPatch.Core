@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <DebugType>portable</DebugType>
+    <AssemblyName>Nancy.JsonPatch.Demo</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netcoreapp1.1' ">
+    <ProjectReference Include="../../src/Nancy.JsonPatch/Nancy.JsonPatch.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Owin" Version="1.1.2" />
+  </ItemGroup>
+
+</Project>

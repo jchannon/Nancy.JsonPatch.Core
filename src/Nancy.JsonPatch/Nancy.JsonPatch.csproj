@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Authors>Jonathan Channon</Authors>
+    <Description>A library that allows usage of JsonPatch with Nancy</Description>
+    <PackageTags>asp.net core;nancy;.net core;jsonpatch;patch;http</PackageTags>
+    <PackageProjectUrl>https://github.com/jchannon/Nancy.JsonPatch</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/jchannon/Nancy.JsonPatch/blob/master/LICENCE</PackageLicenseUrl>
+  </PropertyGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard1.6' ">
+    <PackageReference Include="Nancy" Version="2.0.0-clinteastwood" />
+    <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="1.1.2" />
+  </ItemGroup>
+
+</Project>

@@ -1,7 +1,7 @@
-using System.Collections.Generic;
-
 namespace Nancy.JsonPatch.Demo
 {
+    using System.Collections.Generic;
+
     public class Contact
     {
         public string FirstName { get; set; }

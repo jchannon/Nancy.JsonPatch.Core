@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.AspNetCore.JsonPatch;
-using Microsoft.AspNetCore.JsonPatch.Operations;
-using Nancy.ModelBinding;
-using Newtonsoft.Json.Serialization;
-
-namespace Nancy.JsonPatch.Demo
+﻿namespace Nancy.JsonPatch.Demo
 {
+    using System;
+    using System.Collections.Generic;
+    using Microsoft.AspNetCore.JsonPatch;
+    using Microsoft.AspNetCore.JsonPatch.Operations;
+    using Nancy.ModelBinding;
+    using Newtonsoft.Json.Serialization;
+
     public class HomeModule : NancyModule
     {
         private Contact contact = new Contact
@@ -33,7 +33,7 @@ namespace Nancy.JsonPatch.Demo
                 {
                     return Response.AsJson(ModelValidationResult.Errors).WithStatusCode(422);
                 }
-                
+
                 var model = new { original = contact, patched = patched };
 
                 return model;

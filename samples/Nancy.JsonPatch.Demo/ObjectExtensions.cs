@@ -1,9 +1,9 @@
-using System.Collections.Generic;
-using System.Reflection;
-using System.ArrayExtensions;
-
 namespace System
 {
+    using System.Collections.Generic;
+    using System.Reflection;
+    using System.ArrayExtensions;
+
     public static class ObjectExtensions
     {
         private static readonly MethodInfo CloneMethod = typeof(Object).GetMethod("MemberwiseClone", BindingFlags.NonPublic | BindingFlags.Instance);

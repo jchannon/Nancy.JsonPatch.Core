@@ -1,10 +1,10 @@
-using System;
-using Microsoft.AspNetCore.JsonPatch;
-using Nancy.Validation;
-using Nancy;
-
 namespace Nancy.JsonPatch
 {
+    using System;
+    using Microsoft.AspNetCore.JsonPatch;
+    using Nancy.Validation;
+    using Nancy;
+
     public static class NancyJsonPatchExtensions
     {
         /// <summary>
