@@ -5,11 +5,11 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{9C8FA937-0EA3-4AAC-8EDA-721B6B952276}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nancy.JsonPatch.Demo", "samples\Nancy.JsonPatch.Demo\Nancy.JsonPatch.Demo.csproj", "{9F89A17A-1BE3-4636-9C53-CBBC3CFF786C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nancy.JsonPatch.Core.Demo", "samples\Nancy.JsonPatch.Core.Demo\Nancy.JsonPatch.Core.Demo.csproj", "{9F89A17A-1BE3-4636-9C53-CBBC3CFF786C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{43F47EE7-6199-48DD-87AD-657B676F7747}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nancy.JsonPatch", "src\Nancy.JsonPatch\Nancy.JsonPatch.csproj", "{02EA5EDA-437E-40D2-BB78-60FF4848CE62}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nancy.JsonPatch.Core", "src\Nancy.JsonPatch.Core\Nancy.JsonPatch.Core.csproj", "{02EA5EDA-437E-40D2-BB78-60FF4848CE62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

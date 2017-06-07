@@ -1,4 +1,4 @@
-﻿namespace Nancy.JsonPatch.Demo
+﻿namespace NNancy.JsonPatch.Core.Demo
 {
     using System;
     using System.Collections.Generic;

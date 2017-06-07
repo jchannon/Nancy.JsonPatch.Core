@@ -6,8 +6,9 @@
     <Authors>Jonathan Channon</Authors>
     <Description>A library that allows usage of JsonPatch with Nancy</Description>
     <PackageTags>asp.net core;nancy;.net core;jsonpatch;patch;http</PackageTags>
-    <PackageProjectUrl>https://github.com/jchannon/Nancy.JsonPatch</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/jchannon/Nancy.JsonPatch/blob/master/LICENCE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/jchannon/Nancy.JsonPatch.Core</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/jchannon/Nancy.JsonPatch.Core/blob/master/LICENCE</PackageLicenseUrl>
+     <VersionPrefix>1.0.0</VersionPrefix>
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard1.6' ">

@@ -3,12 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
     <DebugType>portable</DebugType>
-    <AssemblyName>Nancy.JsonPatch.Demo</AssemblyName>
+    <AssemblyName>Nancy.JsonPatch.Core.Demo</AssemblyName>
     <OutputType>Exe</OutputType>
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'netcoreapp1.1' ">
-    <ProjectReference Include="../../src/Nancy.JsonPatch/Nancy.JsonPatch.csproj" />
+    <ProjectReference Include="../../src/Nancy.JsonPatch.Core/Nancy.JsonPatch.Core.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="1.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="1.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.Owin" Version="1.1.2" />

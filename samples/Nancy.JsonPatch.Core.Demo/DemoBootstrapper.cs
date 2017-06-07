@@ -1,6 +1,6 @@
 using Nancy;
 
-namespace Nancy.JsonPatch.Demo
+namespace Nancy.JsonPatch.Core.Demo
 {
     public class DemoBootstrapper : DefaultNancyBootstrapper
     {

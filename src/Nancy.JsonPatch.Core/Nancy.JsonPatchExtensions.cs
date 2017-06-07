@@ -1,4 +1,4 @@
-namespace Nancy.JsonPatch
+namespace Nancy.JsonPatch.Core
 {
     using System;
     using Microsoft.AspNetCore.JsonPatch;
