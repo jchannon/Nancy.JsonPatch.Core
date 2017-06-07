@@ -3,6 +3,14 @@
 A library that allows usage of [JsonPatch](http://jsonpatch.com/) with [Nancy](http://github.com/nancyfx/nancy)
 
 ```csharp
+private Contact contact = new Contact
+{
+    FirstName = "Vincent",
+    LastName = "Vega",
+    Age = 42,
+    Links = new List<string> { "http://vincentvega.com" }
+};
+
 Patch("/", _ =>
 {
     var incomingModel = this.Bind<List<Operation<Contact>>>();
