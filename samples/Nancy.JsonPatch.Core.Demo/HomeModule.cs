@@ -1,4 +1,4 @@
-﻿namespace NNancy.JsonPatch.Core.Demo
+﻿namespace Nancy.JsonPatch.Core.Demo
 {
     using System;
     using System.Collections.Generic;
@@ -6,6 +6,10 @@
     using Microsoft.AspNetCore.JsonPatch.Operations;
     using Nancy.ModelBinding;
     using Newtonsoft.Json.Serialization;
+    using System.Net.Http;
+    using Nancy;
+    using Nancy.JsonPatch.Core;
+    using Nancy.JsonPatch.Core.Demo;
 
     public class HomeModule : NancyModule
     {
